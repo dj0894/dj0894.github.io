@@ -350,7 +350,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(././images/Dp.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -538,7 +538,6 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
     margin-bottom: 30px;
 }
 
@@ -881,6 +880,9 @@ footer {
         padding: 100px 15px;
     }
 
+   
+
+
     #lead-content {
         position: relative;
         transform: none;
@@ -888,7 +890,7 @@ footer {
         top: auto;
 
         h1 {
-            font-size: 3em;
+            font-size: 2em;
         }
 
         h2 {

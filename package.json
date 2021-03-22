@@ -1,7 +1,6 @@
 {
   "name": "devportfolio-template",
   "version": "1.2.2",
-  "description": "",
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch"
@@ -14,7 +13,7 @@
     "coding",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Deepika Jha",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -27,5 +26,17 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2"
-  }
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj0894/dj0894.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dj0894/dj0894.github.io/issues"
+  },
+  "homepage": "https://github.com/dj0894/dj0894.github.io#readme",
+  "description": ""
 }

@@ -4,7 +4,7 @@
 body {
     color: #797979;
     background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family:serif;
 }
 
 h1,
@@ -479,7 +479,6 @@ a:focus {
 
 .about .col-lg-6 {
     padding: 0;
-    margin:2px;
 }
 
 .about .section-header {
@@ -649,6 +648,8 @@ a:focus {
 .experience .timeline .timeline-text {
     padding: 30px;
     background: #ffffff;
+    text-align:justify;
+    text-justify: inter-word;
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
@@ -668,7 +669,8 @@ a:focus {
 .experience .timeline .timeline-text h4 {
     margin: 0 0 10px 0;
     font-size: 16px;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 2rem;
     font-weight: 400;
 }
 

@@ -7,12 +7,18 @@
     padding: 20px;
 }
 
-h1{
+h1 {
     align-self: center; 
 }
 
+
 .problemSpace{
     padding: 20px;
+}
+
+img .right-arrow {
+  padding-top: 100px
+  background-color: white;
 }
 
 
@@ -58,3 +64,15 @@ h1{
 .userTestingBtn{
     color: white;
 }
+
+
+.container-fixed(@gutter: @grid-gutter-width) {
+  padding-right: ceil((@gutter / 2));
+  padding-left: floor((@gutter / 2));
+  margin-right: auto;
+  margin-left: auto;
+  &:extend(.clearfix all);
+}
+
+
+

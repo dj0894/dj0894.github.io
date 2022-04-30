@@ -1,147 +1,124 @@
 <!DOCTYPE html>
-
 <head>
+   <link href="css/goPass.css" rel="stylesheet" />
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="css/goPass.css" rel="stylesheet" />
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
-        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 
 </head>
-
 <body>
-    <div class="container">
-        <div class="page-header">
-            <h1>GoPass App Overview</h1>
-            <p class="lead">GoPass is an integrated payment system for public transport in India</p>
-
-        </div>
-
-        <div class="designProcessOverview">
-            <h2>Design Process Overview<h2>
-                    <img src="./img/designProcessOverview.png" alt="userflowWithExistingProblem" height="200"
-                        width="800"></img>
-        </div>
-        <hr />
-        <div class="problemSpace">
-            <h2>Problem space</h2>
-            <h3>Existing Problem with payment system in public transport in India</h3>
-            <li>Archaic payement system: Most of the public transport take cash.So, you need to tender exact change.
-            </li>
-            <li>Diversity in payment system in different public transport. </li>
-            <li>No single solution for all the payments in public transport</li>
-        </div>
-
-        <hr />
-        <div class="userflowWithExistingProblem">
-            <h2>User Flow with existing problem</h2>
-            <img src="./img/userflowWithExistingProblem.png" alt="userflowWithExistingProblem"></img>
-        </div>
-        <hr />
-        <div class="userflowAfterSol">
-            <h2>User flow with GoPass Solution</h2>
-            <img src="./img/userflowAfterSol.png" alt="userflowWithExistingProblem"></img>
-        </div>
-        <hr />
-        <div>
-            <h2> Storyboard</h2>
-            <img src="./img//storyboard1.png" alt="storyboard1" height="500" width="1000"></img>
-        </div>
-        <hr />
-        <div class="lowFiMockup1">
-            <h2>Lo-fi mockup</h2>
-            <img src="./img/lowFiMockup1.png" alt="storyboard1" height="500" width="1000"></img>
-
+   <div class="container">
+      <div class="p-5 mb-5 bg-primary text-white page-header">
+         <h1>GoPass App Overview</h1>
+         <p class="lead">GoPass is an integrated payment system for public transport in India</p>
+      </div>
+      <div class="p-5 mb-2 bg-secondary text-white">
+         <h1>
+         Design Process Overview
+         <h1>
+         <img src="./img/designProcessOverview.png" alt="userflowWithExistingProblem" class="img-fluid"></img>
+      </div>
+      <hr/>
+      <div class="p-5 mb-2 bg-info text-dark">
+         <h2>Problem space</h2>
+         <h3>Existing Problem with payment system in public transport in India</h3>
+         <li>Archaic payement system: Most of the public transport take cash.So, you need to tender exact change.
+         </li>
+         <li>Diversity in payment system in different public transport. </li>
+         <li>No single solution for all the payments in public transport</li>
+      </div>
+      <hr/>
+      <div class="p-5 mb-2 bg-success text-white">
+         <h2>User Flow with existing problem</h2>
+         <img src="./img/userflowWithExistingProblem.png" alt="userflowWithExistingProblem" class="img-fluid"></img>
+      </div>
+      <hr/>
+      <div class="p-5 mb-2 bg-secondary text-white">
+         <h2>User flow with GoPass Solution</h2>
+         <img src="./img/userflowAfterSol.png" alt="userflowWithExistingProblem" class="img-fluid"></img>
+      </div>
+      <hr/>
+      <div class="p-5 mb-2 bg-info text-dark">
+         <h2>Storyboard</h2>
+         <img src="./img//storyboard1.png" alt="storyboard1" class="img-fluid"></img>
+      </div>
+      <hr/>
+      <div class="p-5 mb-2 bg-success text-white">
+      <div>
+         <h2>Lo-fi mockup</h2>
+         <img src="./img/lowFiMockup1.png" alt="storyboard1" class="img-fluid"></img>
+         <h3>Feedback recieved</h3>
+         <li>Name and the app logo not resonating with the problem I am solving.</li>
+         <li>Couple of screens missing like how to pay in the public transport, what screen comes up after buying
+            tickets/GoPass daily passes.
+         </li>
+         <li>Travel logs format is not appropriate.</li>
+      </div>
+      <hr/>
+      <div>
+         <h2> Updated Lo-fi mockup</h2>
+         <img src="./img/lowFiMockup2.png" alt="storyboard1" class="img-fluid"></img>
+         <h3>Updation made</h3>
+         <li>Updated app name and logo</li>
+         <li>Added missing screens for activeTickets,GoPassCard, buying tickets, adding funds in card. </li>
+         <li>Updated travel log screen</li>
+      </div>
+      </div>
+      <hr/>
+      <div class="p-5 mb-2 bg-info text-dark">
+         <div class="">
+            <h2>Hi-fi mockup-iteration 1</h2>
+            <img src="./img/highFi1.png" alt="storyboard1" class="img-fluid"></img>
             <h3>Feedback recieved</h3>
-            <li>Name and the app logo not resonating with the problem I am solving.</li>
-            <li>Couple of screens missing like how to pay in the public transport, what screen comes up after buying
-                tickets/GoPass daily passes.
-            </li>
-            <li>Travel logs format is not appropriate.</li>
-        </div>
-        <hr />
-        <div>
-            <h2> Updated Lo-fi mockup</h2>
-            <img src="./img/lowFiMockup2.png" alt="storyboard1" height="500" width="1000"></img>
-            <h3>Updation made</h3>
-            <li>Updated app name and logo</li>
-            <li>Added missing screens for activeTickets,GoPassCard, buying tickets, adding funds in card. </li>
-            <li>Updated travel log screen</li>
-
-        </div>
-        <hr />
-        <div class="hiFiMockups">
-            <div class="hiFiMockup1">
-                <h2>Hi-fi mockup-iteration 1</h2>
-                <img src="./img/highFi1.png" alt="storyboard1" height="500" width="1000"></img>
-                <h3>Feedback recieved</h3>
-                <li>Logo can be improved to resonate with the problem I am solving.</li>
-                <li>Color combination is not appropreiate.</li>
-                <li>"<"(caret) and search symbols are not appropriate, and consistent.</li>
-                <li>Button colors are very bright can be changed to more soothing color.</li>
-                <li>Button shape needs to be improved and should be uniform.</li>
+            <li>Logo can be improved to resonate with the problem I am solving.</li>
+            <li>Color combination is not appropreiate.</li>
+            <li>"<"(caret) and search symbols are not appropriate, and consistent.</li>
+            <li>Button colors are very bright can be changed to more soothing color.</li>
+            <li>Button shape needs to be improved and should be uniform.</li>
+         </div>
+         <div class="hiFiMockup23">
+            <div class="hiFiMockup2">
+               <h2>Hi-fi mockup-iteration 2</h2>
+               <iframe width="300" height="500" src="./img/HiFi2.mp4"></iframe>
+               <h3>Feedback recieved</h3>
+               <li>Color combination not appealing.</li>
+               <li>Tap to pay icon should be modified.</li>
+               <li>Top bar is not appealing.</li>
             </div>
-
-
-            <div class="hiFiMockup23">
-                <div class="hiFiMockup2">
-                    <h2>Hi-fi mockup-iteration 2</h2>
-                    <iframe width="300" height="500" src="./img/HiFi2.mp4"></iframe>
-                    <h3>Feedback recieved</h3>
-                    <li>Color combination not appealing.</li>
-                    <li>Tap to pay icon should be modified.</li>
-                    <li>Top bar is not appealing.</li>
-
-                </div>
-
-                <div style="padding-top: 250px">
-                    <img class="right-arrow" src="./img/right-arrow.png" width="100" height="100"></img>
-                </div>
-                <div class="hiFiMockup3">
-                    </iframe>
-                    <h2>Hi-fi up-iteration 3</h2>
-                    <iframe width="300" height="500" src="./img/HiFi3.mp4">
-                    </iframe>
-                    <h3>Updation made</h3>
-                    <li>Color combination updated</li>
-                    <li>UI updated added progression bar</li>
-                    <li>Fixed broken links in prototpe</li>
-                </div>
+            <div style="padding-top: 250px">    
+               <img class="right-arrow" src="./img/next-arrow-svgrepo-com.svg" width="100" height="100"></img>
             </div>
-        </div>
-
-        <div class="userTesting">
-
-            <div class="userTestingVideoDiv">
-                <h2>User Testing and Report</h2>
-                <iframe width="300" height="500" src="./img/userTestingVideo.mp4"></iframe>
-                <h3>Feedback recieved</h3>
-                <li>Inconsistent progression bar</li>
-                <li>Inconsistent succcess message screen</li>
-                <li>Inconsistent Font sise</li>
+            <div class="hiFiMockup3">
+               </iframe>
+               <h2>Prototype iteration 3</h2>
+               <iframe width="300" height="500" src="./img/HiFi3.mp4">
+               </iframe>
+               <h3>Updation made</h3>
+               <li>Color combination updated</li>
+               <li>UI updated added progression bar</li>
+               <li>Fixed broken links in prototpe</li>
             </div>
-            <div class="userTestingBtndiv">
+         </div>
+      </div>
+      <div class="p-5 mb-5 bg-secondary text-white" style="display: flex;">
+         <div class="">
+            <h2>User Testing and Report</h2>
+            <iframe width="300" height="500" src="./img/userTestingVideo.mp4"></iframe>
+            <h3>Feedback recieved</h3>
+            <li>Inconsistent progression bar</li>
+            <li>Inconsistent succcess message screen</li>
+            <li>Inconsistent Font sise</li>
+         </div>
+         <div class="p-5" style="margin: 15%">
+            <button type="button" class="btn btn-success"><a class="text-white" href="./img/userTestingReport.pdf">Download User Testing Report</a></button>
 
-                <button class="userTestingBtn"><a href="./img/userTestingReport.pdf" download>Download
-                        User Testing
-                        Report
-                    </a></button>
-            </div>
-        </div>
-
-        <div class="finalPrototype">
-            <h2>Final Prototype</h2>
-            <iframe width="1000" height="500" src="./img/HiFi3.mp4">
-            </iframe>
-        </div>
-
-    </div>
-
+         </div>
+      </div>
+      <div class="finalPrototype">
+         <h2>Final Prototype</h2>
+         <iframe width="1000" height="500" src="./img/HiFi3.mp4">
+         </iframe>
+      </div>
+   </div>
 </body>
-
 </html>

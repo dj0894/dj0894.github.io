@@ -1,68 +1,20 @@
 
-.heading{
-    align-self: center;
-}
-
-.designProcessOverview{
-    padding: 20px;
-}
-
-h1 {
-    align-self: center; 
-}
-
-
 .problemSpace{
     padding: 20px;
 }
 
-img .right-arrow {
-  padding-top: 100px
-  background-color: white;
-}
 
-
-.hiFiMockup23{
+.hiFiMockup23 {
     display: flex;  
     gap:10rem;
 }
+
 .hiFiMockups{
     padding: 20px;
 }
 
-.userTesting{
+.userTesting {
     display: flex
-}
-
-.userTestingBtn{
-    background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.userflowWithExistingProblem{
-    padding: 20px;
-}
-.userflowAfterSol{
-    padding: 20px;
-}
-.userTesting{
-    padding: 20px;
-    gap:5rem
-}
-.userTestingBtndiv{
-    padding-top:250px;
-
-}
-
-.userTestingBtn{
-    color: white;
 }
 
 
